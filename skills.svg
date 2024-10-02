@@ -1,0 +1,64 @@
+<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .skill-area {
+            display: flex;
+            margin-bottom: 1em;
+        }
+        .skill-name {
+            min-width: 150px;
+            text-align: right;
+            padding-right: 2em;
+            color: #777;
+        }
+        .skill-value {
+            color: green;
+        }
+      </style>
+
+      <div class="skills">
+            <div class="skill-area">
+                <div class="skill-name">Backend coding with</div>
+                <div class="skill-value">.Net, C#</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Storing data to</div>
+                <div class="skill-value">MSSQL, Azure Cosmos Db, Azure Storage, Redis</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Accessing data via</div>
+                <div class="skill-value">EFCore, Dapper</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Creating API</div>
+                <div class="skill-value">REST, GraphQL</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Testing using</div>
+                <div class="skill-value">NUnit, xUnit, bUnit, Moq, FluentAssertions</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Containerizing with</div>
+                <div class="skill-value">Docker</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">CI/CD via</div>
+                <div class="skill-value">Azure DevOps, Github Actions</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Frontending with</div>
+                <div class="skill-value">Blazor, HTML, CSS</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">IDE</div>
+                <div class="skill-value">prefer Jetbrains Rider, love VS Code, may use Visual Studio</div>
+            </div>
+            <div class="skill-area">
+                <div class="skill-name">Practicing</div>
+                <div class="skill-value">Clean Architecture and Test DD</div>
+            </div>
+        </div>
+    </div>
+  </foreignObject>
+</svg>
