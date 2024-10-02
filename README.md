@@ -4,7 +4,7 @@
   <img src="header.svg" style="width: 100%;">
 </div>
 
-<h3>Experienced full-stack developer with a passion for building secure, scalable applications. Specializing in Blazor, ASP.Net Core, and the .NET stack, I design and develop modern web and mobile solutions. I bring a focus on clean architecture, strong security practices, and cloud infrastructure, leveraging Azure to deliver reliable results.</h3>
+<h3 style="color:red">Experienced full-stack developer with a passion for building secure, scalable applications. Specializing in Blazor, ASP.Net Core, and the .NET stack, I design and develop modern web and mobile solutions. I bring a focus on clean architecture, strong security practices, and cloud infrastructure, leveraging Azure to deliver reliable results.</h3>
 
 ## Things that take my free time at the moment
 🧪 [demo project](https://github.com/maisak/blazor-clean-arch) of Blazor app based on clean architecture 
@@ -16,11 +16,11 @@
 🎸 learning how to play 🎸
 
 ## Certifications
-<a href="https://google.com" target="_blank">
-<div style="display: flex; align-items: center">
-    <img src="az-fundamentals.svg" style="width: 40px;">
-    <span style="margin-left: 10px; font-size: 20px">AZ-900</span>
-</div>
+<a href="https://learn.microsoft.com/api/credentials/share/en-us/maisak/7051D17C9514FB70?sharingId=1E59DD663B971886" target="_blank" style="text-decoration:none !important;">
+  <div style="display: flex; align-items: center">
+      <img src="az-fundamentals.svg" style="width: 1em;"/>
+      AZ-900
+  </div>
 </a>
 
 ## Socials
