@@ -1,0 +1,59 @@
+<svg fill="none" viewBox="0 0 600 50" width="600" height="50" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .loader {
+            color: green;
+            font-weight: bold;
+            font-family: monospace;
+            display: inline-grid;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .loader:before,
+        .loader:after {
+            content:"Hi! I'm Anton Maisak!";
+            grid-area: 1/1;
+            -webkit-mask-size: 100% 5px,100% 100%;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            animation: l35-1 1s infinite;
+        }
+        .loader:before {
+            -webkit-mask-image:
+                    linear-gradient(#000 0 0),
+                    linear-gradient(#000 0 0);
+        }
+        .loader:after {
+            -webkit-mask-image:
+                    linear-gradient(#000 0 0);
+            animation:
+                    l35-1  1s infinite,
+                    l35-2 .2s infinite cubic-bezier(0.5,200,0.5,-200);
+        }
+        @keyframes l35-1{
+            0%   {-webkit-mask-position:0 20px,0 0}
+            20%  {-webkit-mask-position:0 8px ,0 0}
+            40%  {-webkit-mask-position:0 100%,0 0}
+            60%  {-webkit-mask-position:0 3px ,0 0}
+            80%  {-webkit-mask-position:0 15px,0 0}
+            100% {-webkit-mask-position:0 0   ,0 0}
+        }
+        @keyframes l35-2{
+            100% {transform:translate(0.1px)}
+        }
+        .skill-row {
+            display: flex; 
+            align-items: center; 
+            gap:16px;
+        }
+      </style>
+
+      <div class="loader"></div>
+    </div>
+  </foreignObject>
+</svg>
