@@ -7,9 +7,8 @@
 <h3 style="color:red">Experienced full-stack developer with a passion for building secure, scalable applications. Specializing in Blazor, ASP.Net Core, and the .NET stack, I design and develop modern web and mobile solutions. I bring a focus on clean architecture, strong security practices, and cloud infrastructure, leveraging Azure to deliver reliable results.</h3>
 
 ## Things that take my free time at the moment
-🧪 [demo project](https://github.com/maisak/blazor-clean-arch) of Blazor app based on clean architecture 
 
-📓 studying for AZ-104 (Azure Administrator) certification
+📓 studying for AI-102 (Azure AI Engineer Associate) certification
 
 🚀 building a pet-project of goal tracking
 
@@ -20,6 +19,12 @@
   <div style="display: flex; align-items: center">
       <img src="az-fundamentals.svg" style="width: 1em;"/>
       AZ-900
+  </div>
+</a>
+<a href=https://learn.microsoft.com/en-us/users/maisak/credentials/91c2d90e02e92ed" target="_blank" style="text-decoration:none !important;">
+  <div style="display: flex; align-items: center">
+      <img src="az-fundamentals.svg" style="width: 1em;"/>
+      AI-900 (Azure AI Fundamentals)
   </div>
 </a>
 
